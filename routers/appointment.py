@@ -1,7 +1,7 @@
 
 from fastapi import APIRouter, HTTPException
 from typing import List
-from ..schemas.appointment import Appointment
+from schema.appointment import Appointment
 
 router = APIRouter()
 

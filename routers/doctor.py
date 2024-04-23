@@ -1,7 +1,7 @@
 # app/routers/doctor.py
 from fastapi import APIRouter, HTTPException
 from typing import List
-from ..schemas.doctor import Doctor
+from schema.doctor import Doctor
 
 router = APIRouter()
 

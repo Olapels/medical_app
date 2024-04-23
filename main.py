@@ -1,9 +1,9 @@
 # app/main.py
 from fastapi import FastAPI
-from . import crud
-from routers import appointments
-from routers import doctors 
-from routers import patients
+import crud
+from routers import appointment
+from routers import doctor 
+from routers import patient
 
 app = FastAPI()
 

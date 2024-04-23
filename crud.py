@@ -1,9 +1,9 @@
 # app/routers/crud.py
 from fastapi import HTTPException
 from typing import List
-from schemas.patient import Patient
-from schemas.doctor import Doctor
-from schemas.appointment import Appointment
+from routers.schema.patient import Patient
+from routers.schema.doctor import Doctor
+from routers.schema.appointment import Appointment
 
 patients_db = []
 doctors_db = []

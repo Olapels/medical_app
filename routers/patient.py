@@ -1,7 +1,9 @@
 
 from fastapi import APIRouter, HTTPException
 from typing import List
-from ..schemas.patient import Patient
+from schema.patient import Patient
+
+
 
 router = APIRouter()
 
